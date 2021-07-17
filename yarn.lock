@@ -1201,12 +1201,12 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@blueprintjs/core@^3.45.0":
-  version "3.45.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.45.0.tgz#3b0a36aba9bcbf7a141f260f042ef1d0b564cdc4"
-  integrity sha512-oLknlh+jdvdat+3JrljKGAmtP7KJRKnUqWJOvcGHmAlE2nUZkwzI1jICd2HMncQrukIqQN5ORZK1tswus6BM+Q==
+"@blueprintjs/core@^3.45.0", "@blueprintjs/core@^3.47.0":
+  version "3.47.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.47.0.tgz#bf33155d224b742ba51c6e1cf5be4523290337a7"
+  integrity sha512-u+bfmCyPXwKZMnwY4+e/iWjO2vDUvr8hA8ydmV0afyvcEe7Sh85UPEorIgQ/CBuRIbVMNm8FpLsFzDxgkfrCNA==
   dependencies:
-    "@blueprintjs/icons" "^3.26.1"
+    "@blueprintjs/icons" "^3.27.0"
     "@types/dom4" "^2.0.1"
     classnames "^2.2"
     dom4 "^2.1.5"
@@ -1237,6 +1237,14 @@
     classnames "^2.2"
     tslib "~1.13.0"
 
+"@blueprintjs/icons@^3.27.0":
+  version "3.27.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.27.0.tgz#f4c03e8bc2f9310f7eaefaab26dd91f65935da43"
+  integrity sha512-ItRioyrr2s70chclj5q38HS9omKOa15b3JZXv9JcMIFz+6w6rAcoAH7DA+5xIs27bFjax/SdAZp/eYXSw0+QpA==
+  dependencies:
+    classnames "^2.2"
+    tslib "~1.13.0"
+
 "@blueprintjs/popover2@^0.10.1":
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/@blueprintjs/popover2/-/popover2-0.10.1.tgz#30f79909618045e13095f025dd0cd20667221248"
@@ -1250,12 +1258,12 @@
     resize-observer-polyfill "^1.5.1"
     tslib "~1.13.0"
 
-"@blueprintjs/select@^3.16.4":
-  version "3.16.4"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-3.16.4.tgz#d7a2a082a6b243889d0a491bf6b6c8da7bbc6e1d"
-  integrity sha512-5zBnaiy+1lrOYZPZIYhfYqN9heJJwNpnT214X0jDYaWAOPt/S+v8L50c7JflwV0JEaMgavc/FVVpKEb2ojw88Q==
+"@blueprintjs/select@^3.16.6":
+  version "3.16.6"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-3.16.6.tgz#ae41a73bc7c23b07a20b0c50c71273c9d5d0d83d"
+  integrity sha512-lg2duuzlRw18+pbET6vlRY/TVSuuSI6wI4DObUiBAfU7G3fMa6d10Sp+0Yn00XaMPQ5y3MGn1gz0EbIJ3/A5OA==
   dependencies:
-    "@blueprintjs/core" "^3.45.0"
+    "@blueprintjs/core" "^3.47.0"
     classnames "^2.2"
     tslib "~1.13.0"
 
@@ -8181,10 +8189,10 @@ jest@26.6.0:
     import-local "^3.0.2"
     jest-cli "^26.6.0"
 
-js-slang@^0.5.6:
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/js-slang/-/js-slang-0.5.6.tgz#d3d7dec8a024c6fb2fdc57e9ce51782966a2ef24"
-  integrity sha512-hZ2tYctVnwdw6712kEhi+nvjw0fOXFv3iV8Sd9LFcXrE7TjGdszVtL0bxCnbALYnWjMwYnarI2aKjeWG7vNWsg==
+js-slang@^0.5.10:
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/js-slang/-/js-slang-0.5.10.tgz#c65a3043fa87d5206c65c85d4c3773922cc6eba9"
+  integrity sha512-ToWrQ7E/UDOEFwgh3zst0VT9cuISYi4EijYynAcHwXRPu0XLQlZEtW4OjALX7eK+sfDoKeW6IWnJBDMAPVF8MQ==
   dependencies:
     "@types/estree" "0.0.47"
     acorn "^8.0.3"
